@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="746f8f592c654f719864d8079d528b9d" Name="Diagram1">
+        <EntityTypeShape EntityType="EticaretModel.aspnet_Applications" Width="1.5" PointX="1.5" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.aspnet_Paths" Width="1.5" PointX="3.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="6" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="8" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.aspnet_Profile" Width="1.5" PointX="3" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.aspnet_Roles" Width="1.5" PointX="1.5" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.aspnet_SchemaVersions" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.aspnet_Users" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.aspnet_WebEvent_Events" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.Kargo" Width="1.5" PointX="3" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.Kategori" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.Marka" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.Musteri" Width="1.5" PointX="3" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.MusteriAdres" Width="1.5" PointX="5.25" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.OzellikDeger" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.OzellikTip" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.Resim" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.Satis" Width="1.5" PointX="5.25" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.SatisDetay" Width="1.5" PointX="7.5" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.SiparisDurum" Width="1.5" PointX="3" PointY="28" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.Urun" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.UrunOzellik" Width="1.5" PointX="9.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_Applications" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_MembershipUsers" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_Profiles" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_Roles" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_Users" Width="1.5" PointX="11.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_UsersInRoles" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_WebPartState_Paths" Width="1.5" PointX="7.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_WebPartState_Shared" Width="1.5" PointX="9.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EticaretModel.vw_aspnet_WebPartState_User" Width="1.5" PointX="11.75" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="EticaretModel.FK__aspnet_Pa__Appli__03F0984C" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK__aspnet_Ro__Appli__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK__aspnet_Us__Appli__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK__aspnet_Pe__PathI__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK__aspnet_Pe__PathI__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK__aspnet_Pe__UserI__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK__aspnet_Pr__UserI__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Musteri_aspnet_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Satis_Kargo" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Kategori_Resim" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_OzellikTip_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Urun_Kategori" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Marka_Resim" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Urun_Marka" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_MusteriAdres_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Satis_Musteri" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_OzellikDeger_OzellikTip" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_UrunOzellik_OzellikDeger" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_UrunOzellik_OzellikTip" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Resim_Urun" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_Satis_SiparisDurum" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_SatisDetay_Satis" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_SatisDetay_Urun" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.FK_UrunOzellik_Urun" ManuallyRouted="false" />
+        <AssociationConnector Association="EticaretModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
